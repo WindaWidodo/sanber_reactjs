@@ -1,0 +1,3 @@
+cara menggunakan git
+git init => bikin folder git
+git status => mengecek status git 
