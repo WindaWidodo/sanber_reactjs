@@ -1,3 +1,5 @@
 cara menggunakan git
 git init => bikin folder git
 git status => mengecek status git 
+git add . => menambahkan ke file ke folder git 
+git push origin master =>memperbarui data ke github
