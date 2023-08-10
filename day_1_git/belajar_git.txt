@@ -1,4 +1,18 @@
 cara menggunakan git
+
+git => adalah sistem yang mengelolah perubahan dari sebuah dokument
+version control system => sebuah sistem yang menyimpan rekaman pada
+source code
+
+git hub => adalah layanan cloud untuk menyimpan & mengelolah project 
+Git Repositori => adalah sebuah folder yang berada di web git
+git commit => rekaman dari repo/folder 
+git branch => cabang bebas dari sebuat commit
+git merge => menggabungkan sebuah branch
+git remote => sumber yang memiliki repo
+git clone => mengambil repo dari remote
+git pull => untuk mengambil data dari repo 
+git check out => mengembalikan data sebelum nya
 git init => bikin folder git
 git status => mengecek status git 
 git add . => menambahkan ke file ke folder git 
