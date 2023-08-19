@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wins Store : product-detail</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- bikin navbar -->
+    <header>
+      <h1>Techno Store</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="product-detail.html">shop</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </nav>
+      <input type="search" placeholder="search..." />
+    </header>
+
+    <!-- bikin file di samping kiri atau kanan -->
+    <aside>
+      <h2>let's shopping</h2>
+      <!-- menyeleksi kodingan -->
+      <section>
+        <h3>Kategori</h3>
+        <hr />
+        <ul>
+          <li>Kamera</li>
+          <li>Laptop</li>
+          <li>Handphone</li>
+          <li>Aksesoris</li>
+          <li>Other</li>
+        </ul>
+      </section>
+      <!-- akhir -->
+      <section>
+        <h3>merek <span> brand</span></h3>
+        <hr />
+        <ul>
+          <li>Asus</li>
+          <li>Apple</li>
+          <li>Accer</li>
+          <li>Cannon</li>
+          <li>Samsung</li>
+          <li>Other</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- konten -->
+    <main>
+      <h2>contact us</h2>
+
+      <form>
+        <div>Name: <input type="text" placeholder="masukan nama anda" /></div>
+        <div>Email: <input type="text" placeholder="masukan email anda" /></div>
+        <div>Pesan :<textarea cols="30" rows="5"></textarea></div>
+        <div>
+          <p>Subscribe to futire office by</p>
+          <label for="newsltter">newsltter</label>
+          <input
+            type="checkbox"
+            id="newsltter"
+            name="subscribe"
+            value="newsltter"
+          />
+
+          <label for="email">Email</label>
+          <input type="checkbox" id="email" name="subscribe" value="email" />
+
+          <label for="post">post</label>
+          <input type="checkbox" id="post" name="subscribe" value="post" />
+        </div>
+
+        <!-- <div>
+          <label for="subject">Subject:</label>
+          <select id="subject">
+            <option value="return">Returns</option>
+            <option value="faulty_item">Faulty item</option>
+            <option value="delivery">delivery info</option>
+            <option value="order_tracking">tracking my order</option>
+            <option value="advice">Advice</option>
+            <option value="other">Others</option>
+          </select>
+        </div> -->
+
+        <div>
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            list="subjects"
+            id="subject"
+            placeholder="Enter your subject"
+          />
+          <datalist id="subjects">
+            <option value="returns"></option>
+            <option value="faulty_item"></option>
+            <option value="delivery"></option>
+            <option value="order_tracking"></option>
+            <option value="advice"></option>
+            <option value="others"></option>
+          </datalist>
+        </div>
+
+        <div>
+          <p>How would you like us to respond?</p>
+          <label for="phoneResponse">HandPhone</label>
+          <input
+            type="radio"
+            id="phoneResponse"
+            name="response"
+            value="phone"
+          />
+          <label for="emailResponse">email</label>
+          <input
+            type="radio"
+            id="emailResponse"
+            name="response"
+            value="email "
+          />
+        </div>
+        <br />
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+      </form>
+      <br />
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15864.12458915045!2d107.0893801!3d-6.259627549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1692257610743!5m2!1sen!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+    <!-- akhir konten -->
+
+    <!-- footer -->
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="product-detail.html">shop</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- akhir footer -->
+  </body>
+</html>

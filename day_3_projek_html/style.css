@@ -1,0 +1,64 @@
+html {
+  background: #f7f7f7;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background: white;
+  max-width: 1000px;
+  margin: auto;
+  color: rgb(49, 46, 46);
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #333a40;
+  color: white;
+  padding: 20px 10px;
+}
+
+input[type="search"] {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+}
+
+header h1,
+nav {
+  display: inline-block;
+}
+
+header h1 {
+  width: 100%;
+}
+
+main {
+  width: 680px;
+  display: inline-block;
+}
+aside {
+  width: 270px;
+  /* dispay:inline blok berfungsi buat mensejajarkan  */
+  display: inline-block;
+  vertical-align: top;
+}
+
+.product {
+  border: 1px solid grey;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
