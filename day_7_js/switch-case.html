@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus E-Commerce</title>
+</head>
+<body>
+    <h1>Selamat Datang di Toko Kami</h1>
+
+    <!-- Jumlah total belanja -->
+    <label for="totalBelanja">Total Belanja (RP): </label>
+    <input type="number" id="totalBelanja" min="0">
+
+    <!-- Tombol untuk menghitung diskon -->
+    <button onclick="hitungDiskon()">Hitung Diskon</button>
+
+    <!-- Output hasil diskon -->
+    <p id="hasilDiskon"></p>
+
+    <script>
+        function hitungDiskon() {
+            // Ambil nilai total belanja dari input
+            var totalBelanja = parseFloat(document.getElementById("totalBelanja").value);
+
+            // Inisialisasi variabel untuk menyimpan jenis diskon
+            var jenisDiskon;
+
+            // Menggunakan switch case untuk menentukan jenis diskon berdasarkan total belanja
+            switch (true) {
+                case (totalBelanja >= 5000):
+                    jenisDiskon = "Diskon 20%";
+                    break;
+                case (totalBelanja >= 3000):
+                    jenisDiskon = "Diskon 15%";
+                    break;
+                case (totalBelanja >= 1000):
+                    jenisDiskon = "Diskon 10%";
+                    break;
+                default:
+                    jenisDiskon = "Tidak ada diskon";
+                    break;
+            }
+
+            // Menampilkan hasil diskon pada elemen dengan id "hasilDiskon"
+            document.getElementById("hasilDiskon").innerText = "Jenis Diskon: " + jenisDiskon;
+        }
+    </script>
+</body>
+</html>
