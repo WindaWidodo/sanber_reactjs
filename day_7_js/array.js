@@ -6,7 +6,7 @@ console.log(warna);
 //array length berfungsi untuk mengetahui jumlah array
 
 var hewan = ['kelinci','ayam','bebek','kucing','singa','kelinci','ayam','bebek','kucing','singa','kelinci','ayam','bebek','kucing','singa','kelinci','ayam','bebek','kucing','singa','kelinci','ayam','bebek','kucing','singa','kelinci','ayam','bebek','kucing','singa'];
-console.log(hewan.length); //cara
+console.log(hewan.length);
 
 // method push berfungsi untuk menambah index pada array di akhir
 
